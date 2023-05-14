@@ -2,9 +2,9 @@
 /**
  * This file is part of the netsuitephp/netsuite-php library.
  *
- * @package    ryanwinchester/netsuite-php
- * @author     Ryan Winchester <fungku@gmail.com>
- * @copyright  Copyright (c) Ryan Winchester
+ * @package    ntn/netsuite-php
+ * @author     Nguyen Thanh Nguyen <fungku@gmail.com>
+ * @copyright  Copyright (c) Nguyen Thanh Nguyen
  * @license    http://www.apache.org/licenses/LICENSE-2.0 Apache-2.0
  * @link       https://github.com/netsuitephp/netsuite-php
  * created:    2015-01-22  1:04 PM
@@ -220,7 +220,7 @@ class NetSuiteClient
             'location' => $config['host']."/services/NetSuitePort_".$config['endpoint'],
             'keep_alive' => false,
             'features' => SOAP_SINGLE_ELEMENT_ARRAYS,
-            'user_agent' => "PHP-SOAP/".phpversion()." + ryanwinchester/netsuite-php",
+            'user_agent' => "PHP-SOAP/".phpversion()." + ntn/netsuite-php",
         ], $overrides);
     }
 

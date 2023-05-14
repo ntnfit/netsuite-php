@@ -2,7 +2,7 @@
 /**
  * This file is part of the netsuitephp/netsuite-php library.
  *
- * @package    ryanwinchester/netsuite-php
+ * @package    ntn/netsuite-php
  * @author     Ryan Winchester <fungku@gmail.com>
  * @copyright  Copyright (c) Ryan Winchester
  * @license    http://www.apache.org/licenses/LICENSE-2.0 Apache-2.0
