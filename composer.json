@@ -42,7 +42,7 @@
       "tests\\Netsuite\\": "tests"
     }
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "scripts": {
     "generate": "php utilities/separate_classes.php"
   }
